@@ -746,79 +746,25 @@
           </h2>
           <div class="title-line-centered"></div>
           <p class="modern-subtitle-centered">
-            Explore the application interactively and watch the full video walkthrough.
+            Explore the application interactively
           </p>
         </div>
 
-        <div class="simulator-duo-layout">
-          <!-- LEFT: Interactive Preview -->
-          <div class="simulator-duo-left">
-            <div class="simulator-wrapper">
-              <div class="simulator-header">
-                <h3>Interactive <span class="glow-yellow">Preview</span></h3>
-                <p>Click on the screen to explore the application flow</p>
+        <div style="display: flex; justify-content: center;">
+          <div class="simulator-wrapper">
+            <div class="simulator-phone">
+              <div class="phone-notch"></div>
+              <div class="simulator-screen">
+                <img id="simulator-img" src="assets/screenshots/screen3.jpg" alt="App Simulator">
+                <div id="hotspots-container"></div>
               </div>
-              <div class="simulator-phone">
-                <div class="phone-notch"></div>
-                <div class="simulator-screen">
-                  <img id="simulator-img" src="assets/screenshots/screen3.jpg" alt="App Simulator">
-                  <div id="hotspots-container"></div>
-                </div>
-                <button id="simulator-home" title="Restart Simulator">
-                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
-                </button>
-              </div>
-            </div>
-          </div>
-
-          <!-- RIGHT: APK Download -->
-          <div class="simulator-duo-right">
-            <div class="download-wrapper">
-              <div class="simulator-header">
-                <h3>Download <span class="glow-yellow">App</span></h3>
-                <p>Get the Shilpa AR Astronomy app</p>
-              </div>
-              <div class="download-card card">
-                <div class="download-icon">
-                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="48" height="48">
-                    <path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4M7 10l5 5 5-5M12 15V3"/>
-                  </svg>
-                </div>
-                <h4>Shilpa AR Astronomy</h4>
-                <p>
-                  Download the official Grade 8 Astronomy AR application.
-                </p>
-                <div class="app-specs">
-                  <span class="spec-tag">Android 5.0+</span>
-                  <span class="spec-tag">Offline Mode</span>
-                  <span class="spec-tag">Low RAM</span>
-                </div>
-                <a href="assets/nubiaApp2.zip" download="shilpa-ar-astronomy.apk" class="download-btn primary-btn">
-                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16" style="margin-right: 6px;">
-                    <path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4M7 10l5 5 5-5M12 15V3"/>
-                  </svg>
-                  Download APK
-                </a>
-              </div>
+              <button id="simulator-home" title="Restart Simulator">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+              </button>
             </div>
           </div>
         </div>
 
-        <!-- Project Demo Video Below -->
-        <div class="project-demo-below" style="margin-top: 60px;">
-          <div class="video-demo-wrapper">
-            <div class="simulator-header">
-              <h3>Project <span class="glow-yellow">Demo</span></h3>
-              <p>Watch the full application walkthrough</p>
-            </div>
-            <div class="video-demo-container">
-              <video controls poster="assets/video-poster.jpg" class="demo-video">
-                <source src="assets/SHILPA_25-26J-418.mp4" type="video/mp4">
-                  Your browser does not support the video tag.
-                </video>
-            </div>
-          </div>
-        </div>
       </div>
     </section>
 
@@ -1819,16 +1765,6 @@
             </a>
           </div>
 
-          <!-- Full Project -->
-          <div class="resource-card clean-card" style="padding: 35px 20px; text-align: center; display: flex; flex-direction: column; align-items: center; border-color: rgba(255,222,89,0.4); background: linear-gradient(145deg, rgba(255,222,89,0.08) 0%, transparent 100%);">
-            <div class="resource-icon" style="font-size: 3rem; margin-bottom: 20px; filter: drop-shadow(0 0 10px rgba(255,222,89,0.5));">📦</div>
-            <h4 style="color: var(--primary-yellow); font-size: 1.15rem; margin-bottom: 15px;">Full Project</h4>
-            <p style="color: var(--text-muted); font-size: 0.9rem; margin-bottom: 25px; flex-grow: 1; line-height: 1.5;">Source code, assets, and APK</p>
-            <a href="assets/project/ASTRONOMY_AR.zip" download class="btn primary-btn download-btn" style="width: 100%; display: flex; justify-content: center; align-items: center; gap: 8px; padding: 12px 15px; border-radius: 12px; background: var(--primary-yellow); color: black; border: none; font-weight: bold; font-size: 0.95rem;">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v4a2 2 0 012-2h14a2 2 0 012 2z"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
-              ZIP
-            </a>
-          </div>
 
         </div>
       </div>
