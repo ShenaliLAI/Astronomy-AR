@@ -1,0 +1,104 @@
+<svg width="800" height="2000" viewBox="0 0 800 2000" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="glow-alt" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <!-- Central Vertical Path -->
+  <path d="M400 0 V2000" stroke="#ffde59" stroke-width="2" stroke-opacity="0.2" stroke-dasharray="10 10"/>
+  
+  <!-- Step 1: Launch (Left) -->
+  <g transform="translate(100, 100)">
+    <rect x="0" y="0" width="250" height="120" rx="20" fill="rgba(255,222,89,0.05)" stroke="#ffde59" stroke-width="1.5" filter="url(#glow-alt)"/>
+    <circle cx="50" cy="60" r="30" fill="black" stroke="#ffde59" stroke-width="1"/>
+    <path d="M50 45 V75 M35 60 H65" stroke="#ffde59" stroke-width="1.5"/>
+    <text x="100" y="55" font-family="Arial" font-size="18" font-weight="bold" fill="white">01. LAUNCH</text>
+    <text x="100" y="80" font-family="Arial" font-size="12" fill="#888">Open Shilpa AR App</text>
+    <path d="M250 60 H300" stroke="#ffde59" stroke-width="2" marker-end="url(#arrow-alt)"/>
+  </g>
+
+  <!-- Step 2: Topic (Right) -->
+  <g transform="translate(450, 300)">
+    <rect x="0" y="0" width="250" height="120" rx="20" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.2)" stroke-width="1.5"/>
+    <circle cx="200" cy="60" r="30" fill="black" stroke="white" stroke-opacity="0.3" stroke-width="1"/>
+    <circle cx="200" cy="60" r="15" stroke="white" stroke-opacity="0.5" fill="none"/>
+    <text x="20" y="55" font-family="Arial" font-size="18" font-weight="bold" fill="white" text-anchor="start">02. SELECTION</text>
+    <text x="20" y="80" font-family="Arial" font-size="12" fill="#888" text-anchor="start">Choose Astronomy Topic</text>
+    <path d="M0 60 H-50" stroke="#ffde59" stroke-width="2" marker-end="url(#arrow-alt)"/>
+  </g>
+
+  <!-- Step 3: Scan (Left) -->
+  <g transform="translate(100, 500)">
+    <rect x="0" y="0" width="250" height="120" rx="20" fill="rgba(255,222,89,0.05)" stroke="#ffde59" stroke-width="1.5"/>
+    <circle cx="50" cy="60" r="30" fill="black" stroke="#ffde59" stroke-width="1"/>
+    <rect x="35" y="45" width="30" height="30" stroke="#ffde59" stroke-width="1.5" fill="none"/>
+    <text x="100" y="55" font-family="Arial" font-size="18" font-weight="bold" fill="white">03. SCANNING</text>
+    <text x="100" y="80" font-family="Arial" font-size="12" fill="#888">Point Camera at Image</text>
+    <path d="M250 60 H300" stroke="#ffde59" stroke-width="2" marker-end="url(#arrow-alt)"/>
+  </g>
+
+  <!-- Step 4: Detect (Right) -->
+  <g transform="translate(450, 700)">
+    <rect x="0" y="0" width="250" height="120" rx="20" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.2)" stroke-width="1.5"/>
+    <circle cx="200" cy="60" r="30" fill="black" stroke="white" stroke-opacity="0.3" stroke-width="1"/>
+    <path d="M190 50 L210 70 M210 50 L190 70" stroke="white" stroke-opacity="0.5" stroke-width="1.5"/>
+    <text x="20" y="55" font-family="Arial" font-size="18" font-weight="bold" fill="white">04. DETECTION</text>
+    <text x="20" y="80" font-family="Arial" font-size="12" fill="#888">Vuforia Feature Tracking</text>
+    <path d="M0 60 H-50" stroke="#ffde59" stroke-width="2" marker-end="url(#arrow-alt)"/>
+  </g>
+
+  <!-- Step 5: AR Model (Left) -->
+  <g transform="translate(100, 900)">
+    <rect x="0" y="0" width="250" height="120" rx="20" fill="rgba(255,222,89,0.08)" stroke="#ffde59" stroke-width="2" filter="url(#glow-alt)"/>
+    <circle cx="50" cy="60" r="30" fill="black" stroke="#ffde59" stroke-width="1"/>
+    <circle cx="50" cy="60" r="20" fill="#ffde59" fill-opacity="0.3"/>
+    <text x="100" y="55" font-family="Arial" font-size="18" font-weight="bold" fill="white">05. AR RENDER</text>
+    <text x="100" y="80" font-family="Arial" font-size="12" fill="#888">3D Planet Appears in Room</text>
+    <path d="M250 60 H300" stroke="#ffde59" stroke-width="2" marker-end="url(#arrow-alt)"/>
+  </g>
+
+  <!-- Step 6: Explore (Right) -->
+  <g transform="translate(450, 1100)">
+    <rect x="0" y="0" width="250" height="120" rx="20" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.2)" stroke-width="1.5"/>
+    <circle cx="200" cy="60" r="30" fill="black" stroke="white" stroke-opacity="0.3" stroke-width="1"/>
+    <path d="M185 60 Q200 40 215 60" stroke="white" stroke-opacity="0.5" stroke-width="1.5" fill="none"/>
+    <text x="20" y="55" font-family="Arial" font-size="18" font-weight="bold" fill="white">06. INTERACTION</text>
+    <text x="20" y="80" font-family="Arial" font-size="12" fill="#888">Rotate & Scale the Model</text>
+    <path d="M0 60 H-50" stroke="#ffde59" stroke-width="2" marker-end="url(#arrow-alt)"/>
+  </g>
+
+  <!-- Step 7: Quiz (Left) -->
+  <g transform="translate(100, 1300)">
+    <rect x="0" y="0" width="250" height="120" rx="20" fill="rgba(255,222,89,0.05)" stroke="#ffde59" stroke-width="1.5"/>
+    <circle cx="50" cy="60" r="30" fill="black" stroke="#ffde59" stroke-width="1"/>
+    <path d="M40 45 L60 75 M60 45 L40 75" stroke="#ffde59" stroke-width="1.5"/>
+    <text x="100" y="55" font-family="Arial" font-size="18" font-weight="bold" fill="white">07. ASSESSMENT</text>
+    <text x="100" y="80" font-family="Arial" font-size="12" fill="#888">Complete Learning Quiz</text>
+    <path d="M250 60 H300" stroke="#ffde59" stroke-width="2" marker-end="url(#arrow-alt)"/>
+  </g>
+
+  <!-- Step 8: Results (Right) -->
+  <g transform="translate(450, 1500)">
+    <rect x="0" y="0" width="250" height="120" rx="20" fill="rgba(255,222,89,0.1)" stroke="#ffde59" stroke-width="2" filter="url(#glow-alt)"/>
+    <circle cx="200" cy="60" r="30" fill="black" stroke="#ffde59" stroke-width="1"/>
+    <path d="M185 70 L195 60 L205 65 L215 50" stroke="#ffde59" stroke-width="2" fill="none"/>
+    <text x="20" y="55" font-family="Arial" font-size="18" font-weight="bold" fill="white">08. ANALYTICS</text>
+    <text x="20" y="80" font-family="Arial" font-size="12" fill="#888">View Success & Feedback</text>
+    <path d="M0 60 H-50" stroke="#ffde59" stroke-width="2" marker-end="url(#arrow-alt)"/>
+  </g>
+
+  <!-- Final Goal (Center) -->
+  <g transform="translate(250, 1750)">
+    <rect x="0" y="0" width="300" height="100" rx="50" fill="black" stroke="#ffde59" stroke-width="3" filter="url(#glow-alt)"/>
+    <text x="150" y="45" font-family="Arial" font-size="20" font-weight="bold" fill="white" text-anchor="middle">KNOWLEDGE RETAINED</text>
+    <text x="150" y="70" font-family="Arial" font-size="14" fill="#ffde59" text-anchor="middle">END OF JOURNEY</text>
+  </g>
+
+  <defs>
+    <marker id="arrow-alt" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#ffde59" />
+    </marker>
+  </defs>
+</svg>
