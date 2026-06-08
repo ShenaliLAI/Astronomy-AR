@@ -1,0 +1,2443 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shilpa AR: Astronomy | Interactive Grade 8 STEM Education</title>
+    <meta
+      name="description"
+      content="Transforming Sri Lankan STEM Education with Augmented Reality. Experience the cosmos in 3D directly from your textbook."
+    />
+    <link rel="stylesheet" href="style.css" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar" id="main-navbar">
+      <a href="#hero" class="logo">
+        <img src="assets/logo.png" alt="Shilpa Logo" class="nav-logo-img" />
+      </a>
+      <div class="nav-links">
+        <a href="#identity">Project</a>
+        <a href="#problem">Problem</a>
+        <a href="#solution">Solution</a>
+        <a href="#media">App</a>
+        <a href="#research">Research</a>
+        <a href="#methodology">Methodology</a>
+        <a href="#testing">Testing</a>
+        <a href="#findings">Findings</a>
+        <a href="#future-potential">Future</a>
+        <a href="#resources">Resources</a>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero" id="hero">
+      <div class="container hero-container-centered">
+        <div class="hero-content-centered">
+          <div class="badge">Grade 8 Astronomy Module</div>
+          <h1 class="hero-title">
+            Discover the Cosmos in
+            <span class="highlight">Augmented Reality</span>
+          </h1>
+          <p class="hero-tagline">
+            Transforming Sri Lankan STEM Education: From static textbook pages
+            to an immersive, interactive 3D universe.
+          </p>
+          <div class="hero-actions-centered">
+            <a href="#identity" class="btn primary-btn">Project Details</a>
+            <a
+              href="https://www.shilpa.studio"
+              target="_blank"
+              class="btn secondary-btn"
+              >View Umbrella Project</a
+            >
+          </div>
+        </div>
+
+        <div class="hero-visual-centered">
+          <div class="solar-system-container">
+            <div class="sun"></div>
+            <div class="orbit orbit-1">
+              <div class="planet planet-1"></div>
+            </div>
+            <div class="orbit orbit-2">
+              <div class="planet planet-2"></div>
+            </div>
+            <div class="orbit orbit-3">
+              <div class="planet planet-3">
+                <div class="moon-orbit">
+                  <div class="moon"></div>
+                </div>
+              </div>
+            </div>
+            <div class="orbit orbit-4">
+              <div class="planet planet-4"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Project Identity Section -->
+    <section class="identity-section" id="identity">
+      <div class="container">
+        <div class="section-header">
+          <h2>Project <span class="highlight">Identity</span></h2>
+          <div class="line-accent"></div>
+        </div>
+
+        <div class="identity-grid">
+          <!-- Overview Card -->
+          <div class="card overview-card">
+            <h3>Project Overview</h3>
+            <p>
+              The <strong>Shilpa AR Astronomy Module</strong> is an interactive
+              educational application built using Unity and Vuforia. It uses
+              marker-based image recognition to turn standard Grade 8 astronomy
+              textbook images into real-time 3D models of the Solar System, the
+              Sun, and planets.
+            </p>
+            <p>
+              Designed specifically to overcome the limitations of static
+              teaching methods, this application enables students to use touch
+              gestures—rotation, scaling, and zooming—to improve spatial
+              understanding. Critically, it is optimized for low-end Android
+              devices (2–3 GB RAM) and functions completely offline, making it
+              highly accessible for resource-constrained schools in Sri Lanka.
+            </p>
+            <div class="tech-stack">
+              <span class="tech-tag">Unity 3D</span>
+              <span class="tech-tag">Vuforia AR</span>
+              <span class="tech-tag">Android</span>
+              <span class="tech-tag">Offline Capable</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="team-showcase">
+          <div
+            class="section-header"
+            style="margin-bottom: 40px; margin-top: 60px"
+          >
+            <h2 class="team-title">
+              Research <span class="highlight">Team</span>
+            </h2>
+            <p class="team-subheading">
+              Evaluating the Impact of Immersive Technologies on Sri Lankan STEM
+              Syllabus
+            </p>
+          </div>
+
+          <div class="author-grid">
+            <!-- S.H.K. Bulathgama (Leader) -->
+            <div class="author-card primary-author card">
+              <div class="author-image-placeholder">
+                <img src="assets/research_team/hasith.jpeg" alt="S.H.K. Bulathgama" class="author-photo" />
+              </div>
+              <h4>S.H.K. Bulathgama</h4>
+              <p class="author-component">Grade 8 Mathematics</p>
+              <p class="author-role">Lead Researcher</p>
+              <a href="mailto:bulathgama@example.com" class="author-email"
+                >bulathgama@example.com</a
+              >
+            </div>
+            <!-- Shenali Liyanarachchi -->
+            <div class="author-card card">
+              <div class="author-image-placeholder">
+                <img src="assets/research_team/shenali.jpeg" alt="Shenali Liyanarachchi" class="author-photo" />
+              </div>
+              <h4>Shenali Liyanarachchi</h4>
+              <p class="author-component">Grade 8 Astronomy</p>
+              <p class="author-role">Module Developer</p>
+              <a href="mailto:shenali@example.com" class="author-email"
+                >shenali@example.com</a
+              >
+            </div>
+            <!-- G.V. Hettiarachchi -->
+            <div class="author-card card">
+              <div class="author-image-placeholder">
+                <img src="assets/research_team/genuka.jpeg" alt="G.V. Hettiarachchi" class="author-photo" />
+              </div>
+              <h4>G.V. Hettiarachchi</h4>
+              <p class="author-component">Grade 7 Physics</p>
+              <p class="author-role">Module Developer</p>
+              <a href="mailto:hettiarachchi@example.com" class="author-email"
+                >hettiarachchi@example.com</a
+              >
+            </div>
+            <!-- D.A.M.I.G. Andradi -->
+            <div class="author-card card">
+              <div class="author-image-placeholder">
+                <img src="assets/research_team/iruni.jpeg" alt="D.A.M.I.G. Andradi" class="author-photo" />
+              </div>
+              <h4>D.A.M.I.G. Andradi</h4>
+              <p class="author-component">Grade 10 ICT</p>
+              <p class="author-role">Module Developer</p>
+              <a href="mailto:andradi@example.com" class="author-email"
+                >andradi@example.com</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Problem and Need Section -->
+    <section class="problem-section" id="problem">
+      <div class="container">
+        <!-- Centered Header -->
+        <div class="section-header-modern">
+          <h2 class="modern-title-centered">
+            The <span class="glow-yellow">Problem</span> & Need
+          </h2>
+          <div class="title-line-centered"></div>
+          <p class="modern-subtitle-centered">
+            Bridging the gap between traditional learning and modern
+            visualization in Sri Lankan classrooms.
+          </p>
+        </div>
+
+        <!-- Vertical Points -->
+        <div class="problem-list-modern">
+          <div class="problem-step-modern">
+            <div class="step-number-modern">01</div>
+            <div class="step-content-modern">
+              <h3>The Real-World Problem</h3>
+              <p>
+                Traditional Sri Lankan textbooks rely on
+                <strong>static, 2D diagrams</strong> to teach inherently 3D and
+                dynamic astronomy concepts. This completely fails to communicate
+                the true nature of the Solar System, leading to massive
+                difficulties in visualization.
+              </p>
+            </div>
+          </div>
+
+          <div class="problem-step-modern">
+            <div class="step-number-modern">02</div>
+            <div class="step-content-modern">
+              <h3>Why It Matters</h3>
+              <p>
+                Astronomy requires spatial understanding. Without proper
+                interactive representation, students experience cognitive
+                overload and <strong>drastically reduced engagement</strong>.
+                Failing to grasp these foundational concepts severely hinders
+                their progression in STEM education.
+              </p>
+            </div>
+          </div>
+
+          <div class="problem-step-modern">
+            <div class="step-number-modern">03</div>
+            <div class="step-content-modern">
+              <h3>Intended Beneficiaries</h3>
+              <p>
+                This module is designed exclusively for
+                <strong>Grade 8 students</strong> and STEM educators in Sri
+                Lanka. It specifically targets those operating within
+                resource-constrained school environments where modern
+                educational tools are scarce.
+              </p>
+            </div>
+          </div>
+
+          <div class="problem-step-modern">
+            <div class="step-number-modern">04</div>
+            <div class="step-content-modern">
+              <h3>Current Limitations</h3>
+              <p>
+                Existing digital solutions often require
+                <strong>high-end devices and active internet connections</strong
+                >, making them inaccessible to the average Sri Lankan classroom.
+                Shilpa AR bridges this gap by being completely offline-capable
+                and optimized for devices with just 2-3GB of RAM.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Solution Overview Section -->
+    <section class="solution-section" id="solution">
+      <div class="grid-overlay"></div>
+      <div class="container">
+        <div class="section-header">
+          <h2>The <span class="highlight">Solution</span></h2>
+          <div class="line-accent"></div>
+          <p class="section-subtitle">
+            Experience education in a new dimension.
+          </p>
+        </div>
+
+        <div class="solution-grid-clean">
+          <!-- 01: What it does (Large) -->
+          <div class="clean-card wide">
+            <div class="clean-card-content">
+              <div class="clean-tag">Non-Technical Overview</div>
+              <h2>What Shilpa AR Does</h2>
+              <p class="large-text">
+                Shilpa AR is an interactive mobile app that works like a
+                <strong>"digital magnifying glass"</strong> for your textbooks.
+                When you look at an astronomy page through your phone, a flat
+                picture of a planet instantly turns into a 3D model that floats
+                in the air, allowing you to walk around and explore it as if it
+                were real.
+              </p>
+              <div class="feature-pills">
+                <span>Augmented Reality</span>
+                <span>Mobile Learning</span>
+              </div>
+            </div>
+            <div class="clean-card-visual">
+              <img src="assets/ar_mockup.png" alt="AR App Mockup" />
+            </div>
+          </div>
+
+          <!-- 02: Key Features -->
+          <div class="clean-card">
+            <div class="icon-header">
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7" />
+              </svg>
+              <h3>Key Functions</h3>
+            </div>
+            <ul class="clean-list">
+              <li>
+                <strong>3D Rendering:</strong> Instant 3D planets from
+                textbooks.
+              </li>
+              <li>
+                <strong>Touch Control:</strong> Zoom, rotate, and interact.
+              </li>
+              <li>
+                <strong>Games:</strong> Integrated quizzes and activities.
+              </li>
+              <li><strong>Offline:</strong> No internet or data needed.</li>
+            </ul>
+          </div>
+
+          <!-- 03: Innovation -->
+          <div class="clean-card highlight-card">
+            <div class="icon-header">
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path d="M13 2L3 14h9l-1 8 10-12h-9l1-4z" />
+              </svg>
+              <h3>Innovation</h3>
+            </div>
+            <p>
+              We've optimized high-end AR technology to run on
+              <strong>low-cost mobile phones</strong> (2-3GB RAM) found in most
+              Sri Lankan schools. This brings futuristic tech to every student,
+              regardless of their hardware.
+            </p>
+          </div>
+
+          <!-- 04: Problem Solving -->
+          <div class="clean-card wide last">
+            <div class="icon-header">
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />
+                <polyline points="22 4 12 14.01 9 11.01" />
+              </svg>
+              <h3>How It Solves The Problem</h3>
+            </div>
+            <p class="medium-text">
+              By moving from flat diagrams to interactive 3D space, we remove
+              the "imagination barrier". Students no longer have to struggle to
+              visualize complex orbits; they <strong>experience</strong> them.
+              This makes astronomy faster to learn and much harder to forget.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Visual / Interactive Media Presentation Section -->
+    <section class="media-section" id="media">
+      <div class="container">
+        <div class="section-header-modern">
+          <h2 class="modern-title-centered">
+            Visual & <span class="glow-yellow">Interactive</span> Media
+          </h2>
+          <div class="title-line-centered"></div>
+          <p class="modern-subtitle-centered">
+            Experience the Shilpa AR application through its intuitive interface
+            and immersive educational modules.
+          </p>
+
+          <div class="media-toggle-container">
+            <span class="toggle-label active" id="label-app"
+              >App Screenshots</span
+            >
+            <label class="switch">
+              <input type="checkbox" id="media-view-toggle" />
+              <span class="slider round"></span>
+            </label>
+            <span class="toggle-label" id="label-wireframes">Wireframes</span>
+          </div>
+        </div>
+
+        <div class="media-gallery">
+          <!-- Screen 1: Splash -->
+          <div class="media-item card">
+            <div class="phone-frame">
+              <img
+                class="toggleable-img"
+                src="assets/screenshots/screen3.jpg"
+                data-screenshot="assets/screenshots/screen3.jpg"
+                data-wireframe="assets/wireframes/screen3.png"
+                alt="Shilpa AR Splash Screen"
+              />
+            </div>
+            <div class="media-info">
+              <h3>Splash Screen</h3>
+              <p>
+                The gateway to interactive astronomy, featuring the Shilpa brand
+                and quick-access entry.
+              </p>
+            </div>
+          </div>
+
+          <!-- Screen 2: Menu -->
+          <div class="media-item card">
+            <div class="phone-frame">
+              <img
+                class="toggleable-img"
+                src="assets/screenshots/screen2.jpg"
+                data-screenshot="assets/screenshots/screen2.jpg"
+                data-wireframe="assets/wireframes/screen2.png"
+                alt="Shilpa AR Menu"
+              />
+            </div>
+            <div class="media-info">
+              <h3>Main Navigation</h3>
+              <p>
+                Seamlessly switch between lessons on inner planets, outer
+                planets, and interactive games.
+              </p>
+            </div>
+          </div>
+
+          <!-- Screen 3: Lessons -->
+          <div class="media-item card">
+            <div class="phone-frame">
+              <img
+                class="toggleable-img"
+                src="assets/screenshots/screen1.jpg"
+                data-screenshot="assets/screenshots/screen1.jpg"
+                data-wireframe="assets/wireframes/screen1.png"
+                alt="Shilpa AR Lessons"
+              />
+            </div>
+            <div class="media-info">
+              <h3>Lesson Overview</h3>
+              <p>
+                Curated educational content designed specifically for the Grade
+                8 Sri Lankan STEM syllabus.
+              </p>
+            </div>
+          </div>
+
+          <!-- Screen 4: Quiz 1 -->
+          <div class="media-item card">
+            <div class="phone-frame">
+              <img
+                class="toggleable-img"
+                src="assets/screenshots/screen4.jpg"
+                data-screenshot="assets/screenshots/screen4.jpg"
+                data-wireframe="assets/wireframes/screen4.png"
+                alt="Shilpa AR Inner Planets Quiz"
+              />
+            </div>
+            <div class="media-info">
+              <h3>Matching Challenges</h3>
+              <p>
+                Interactive drag-and-drop mechanics to identify planets based on
+                their unique characteristics.
+              </p>
+            </div>
+          </div>
+
+          <!-- Screen 5: Quiz 2 -->
+          <div class="media-item card">
+            <div class="phone-frame">
+              <img
+                class="toggleable-img"
+                src="assets/screenshots/screen5.jpg"
+                data-screenshot="assets/screenshots/screen5.jpg"
+                data-wireframe="assets/wireframes/screen5.png"
+                alt="Shilpa AR Outer Planets Quiz"
+              />
+            </div>
+            <div class="media-info">
+              <h3>Active Knowledge</h3>
+              <p>
+                Type-based identification modules to reinforce learning through
+                active recall and verification.
+              </p>
+            </div>
+          </div>
+
+          <!-- Screen 6: Lesson 2 -->
+          <div class="media-item card">
+            <div class="phone-frame">
+              <img
+                class="toggleable-img"
+                src="assets/screenshots/screen6.jpg"
+                data-screenshot="assets/screenshots/screen6.jpg"
+                data-wireframe="assets/wireframes/screen6.png"
+                alt="Shilpa AR Inner Planets Lesson"
+              />
+            </div>
+            <div class="media-info">
+              <h3>Planetary Details</h3>
+              <p>
+                In-depth coverage of the terrestrial planets, their composition,
+                and their place in the Solar System.
+              </p>
+            </div>
+          </div>
+
+          <!-- Screen 7: Quiz 3 -->
+          <div class="media-item card">
+            <div class="phone-frame">
+              <img
+                class="toggleable-img"
+                src="assets/screenshots/screen7.jpg"
+                data-screenshot="assets/screenshots/screen7.jpg"
+                data-wireframe="assets/wireframes/screen7.png"
+                alt="Shilpa AR Quiz"
+              />
+            </div>
+            <div class="media-info">
+              <h3>Multiple Choice Quiz</h3>
+              <p>
+                Quick assessment modules to track progress and reinforce key
+                astronomical facts.
+              </p>
+            </div>
+          </div>
+
+          <!-- Screen 8: Fact Match -->
+          <div class="media-item card">
+            <div class="phone-frame">
+              <img
+                class="toggleable-img"
+                src="assets/screenshots/screen8.jpg"
+                data-screenshot="assets/screenshots/screen8.jpg"
+                data-wireframe="assets/wireframes/screen8.png"
+                alt="Shilpa AR Fact Match"
+              />
+            </div>
+            <div class="media-info">
+              <h3>Fact Matcher</h3>
+              <p>
+                A fast-paced interactive game to link unique planetary facts
+                with their respective celestial bodies.
+              </p>
+            </div>
+          </div>
+
+          <!-- Screen 9: Sessions -->
+          <div class="media-item card">
+            <div class="phone-frame">
+              <img
+                class="toggleable-img"
+                src="assets/screenshots/screen9.jpg"
+                data-screenshot="assets/screenshots/screen9.jpg"
+                data-wireframe="assets/wireframes/screen9.png"
+                alt="Shilpa AR Sessions"
+              />
+            </div>
+            <div class="media-info">
+              <h3>Game Selection</h3>
+              <p>
+                A dedicated menu for interactive sessions, allowing students to
+                learn through play.
+              </p>
+            </div>
+          </div>
+
+          <!-- Screen 10: AR View -->
+          <div class="media-item card highlight-card">
+            <div class="phone-frame ar-highlight">
+              <img
+                class="toggleable-img"
+                src="assets/screenshots/screen10.jpg"
+                data-screenshot="assets/screenshots/screen10.jpg"
+                data-wireframe="assets/wireframes/screen10.png"
+                alt="Shilpa AR In Action"
+              />
+            </div>
+            <div class="media-info">
+              <h3>Live AR Tracking</h3>
+              <p>
+                <strong>The Core Feature:</strong> Scanning 2D textbook images
+                to generate interactive 3D planetary models in real-time.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <!-- Subheading for Diagrams -->
+        <div class="sub-header" style="margin-top: 100px; text-align: center">
+          <h2
+            style="
+              font-size: 2.5rem;
+              color: var(--primary-yellow);
+              margin-bottom: 10px;
+            "
+          >
+            Technical <span style="color: white">Diagrams</span>
+          </h2>
+          <p
+            style="
+              color: var(--text-muted);
+              font-size: 1.1rem;
+              max-width: 700px;
+              margin: 0 auto 40px;
+            "
+          >
+            Visual representations of the technical structure and logical flow
+            of the Shilpa AR system.
+          </p>
+        </div>
+
+        <div class="diagram-grid">
+          <!-- Architecture -->
+          <div class="diagram-card card">
+            <div class="diagram-icon">
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.5"
+              >
+                <path d="M12 2v8m0 0l-4-4m4 4l4-4M4 14h16v6H4v-6z" />
+              </svg>
+            </div>
+            <h3>System Architecture</h3>
+            <p>
+              High-level overview of the app's components and their
+              interactions.
+            </p>
+            <button
+              class="btn secondary-btn view-diagram"
+              data-diagram="architecture"
+            >
+              View Diagram
+            </button>
+          </div>
+
+          <!-- AR Workflow -->
+          <div class="diagram-card card">
+            <div class="diagram-icon">
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.5"
+              >
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+              </svg>
+            </div>
+            <h3>AR Workflow</h3>
+            <p>
+              The sequence of operations that power the Augmented Reality
+              experience.
+            </p>
+            <button
+              class="btn secondary-btn view-diagram"
+              data-diagram="ar-workflow"
+            >
+              View Diagram
+            </button>
+          </div>
+
+          <!-- Vuforia Flow -->
+          <div class="diagram-card card">
+            <div class="diagram-icon">
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.5"
+              >
+                <path d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                <path
+                  d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"
+                />
+              </svg>
+            </div>
+            <h3>Vuforia Detection</h3>
+            <p>
+              Detailed flow of the image target recognition and tracking
+              process.
+            </p>
+            <button
+              class="btn secondary-btn view-diagram"
+              data-diagram="vuforia-flow"
+            >
+              View Diagram
+            </button>
+          </div>
+
+          <!-- Component Diagram -->
+          <div class="diagram-card card">
+            <div class="diagram-icon">
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.5"
+              >
+                <path
+                  d="M21 16V8a2 2 0 00-1-1.73l-7-4a2 2 0 00-2 0l-7 4A2 2 0 003 8v8a2 2 0 001 1.73l7 4a2 2 0 002 0l7-4A2 2 0 0021 16z"
+                />
+              </svg>
+            </div>
+            <h3>Application Components</h3>
+            <p>
+              Internal structure and modular organization of the application
+              code.
+            </p>
+            <button
+              class="btn secondary-btn view-diagram"
+              data-diagram="components"
+            >
+              View Diagram
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Interactive App Simulator & Video Demo Section -->
+    <section class="simulator-section" id="interactive" style="padding: 100px 0; background: #080808; border-top: 1px solid var(--border-color);">
+      <div class="container">
+        <div class="section-header-modern" style="margin-bottom: 60px;">
+          <h2 class="modern-title-centered">
+            App <span class="glow-yellow">Experience</span>
+          </h2>
+          <div class="title-line-centered"></div>
+          <p class="modern-subtitle-centered">
+            Explore the application interactively and watch the full video walkthrough.
+          </p>
+        </div>
+
+        <div class="simulator-duo-layout">
+          <!-- LEFT: Interactive Preview -->
+          <div class="simulator-duo-left">
+            <div class="simulator-wrapper">
+              <div class="simulator-header">
+                <h3>Interactive <span class="glow-yellow">Preview</span></h3>
+                <p>Click on the screen to explore the application flow</p>
+              </div>
+              <div class="simulator-phone">
+                <div class="phone-notch"></div>
+                <div class="simulator-screen">
+                  <img id="simulator-img" src="assets/screenshots/screen3.jpg" alt="App Simulator">
+                  <div id="hotspots-container"></div>
+                </div>
+                <button id="simulator-home" title="Restart Simulator">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- RIGHT: APK Download -->
+          <div class="simulator-duo-right">
+            <div class="download-wrapper">
+              <div class="simulator-header">
+                <h3>Download <span class="glow-yellow">App</span></h3>
+                <p>Get the Shilpa AR Astronomy app</p>
+              </div>
+              <div class="download-card card">
+                <div class="download-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="48" height="48">
+                    <path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4M7 10l5 5 5-5M12 15V3"/>
+                  </svg>
+                </div>
+                <h4>Shilpa AR Astronomy</h4>
+                <p>
+                  Download the official Grade 8 Astronomy AR application.
+                </p>
+                <div class="app-specs">
+                  <span class="spec-tag">Android 5.0+</span>
+                  <span class="spec-tag">Offline Mode</span>
+                  <span class="spec-tag">Low RAM</span>
+                </div>
+                <a href="assets/nubiaApp2.zip" download="shilpa-ar-astronomy.apk" class="download-btn primary-btn">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16" style="margin-right: 6px;">
+                    <path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4M7 10l5 5 5-5M12 15V3"/>
+                  </svg>
+                  Download APK
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project Demo Video Below -->
+        <div class="project-demo-below" style="margin-top: 60px;">
+          <div class="video-demo-wrapper">
+            <div class="simulator-header">
+              <h3>Project <span class="glow-yellow">Demo</span></h3>
+              <p>Watch the full application walkthrough</p>
+            </div>
+            <div class="video-demo-container">
+              <video controls poster="assets/video-poster.jpg" class="demo-video">
+                <source src="assets/SHILPA_25-26J-418.mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+                </video>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Research and Validation Section -->
+    <section class="research-section" id="research" style="padding: 120px 0; background: linear-gradient(145deg, #080808 0%, #050505 100%); border-top: 1px solid var(--border-color);">
+      <div class="container">
+        <div class="section-header-modern" style="margin-bottom: 80px;">
+          <h2 class="modern-title-centered">
+            Research & <span class="glow-yellow">Validation</span>
+          </h2>
+          <div class="title-line-centered"></div>
+          <p class="modern-subtitle-centered">
+            Investigating AR's impact on STEM education through interactive learning methodologies
+          </p>
+        </div>
+
+        <!-- Research Overview -->
+        <div class="research-overview">
+          <div class="research-intro card">
+            <div class="research-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="48" height="48">
+                <path d="M12 2l3.09 6.26L22 9.27l-3.09 6.26L12 22z"/>
+                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10 10 4.48 2 12 2z"/>
+              </svg>
+            </div>
+            <h3>Research Background</h3>
+            <p>
+              Traditional STEM education often relies heavily on textbooks, static diagrams, and teacher-centered instruction methods. While these approaches provide theoretical knowledge, they may limit student engagement and make it difficult for learners to fully understand complex scientific concepts.
+            </p>
+            <p>
+              Research in educational technology has shown that interactive and visual learning methods can significantly improve student understanding, participation, and knowledge retention. Augmented Reality (AR) has emerged as a powerful educational technology that allows digital content to be integrated into real-world learning environments.
+            </p>
+          </div>
+
+          <!-- AR Technology Focus -->
+          <div class="ar-focus card highlight-card">
+            <div class="tech-badge">AR Technology</div>
+            <h3>Vuforia Image Target Method</h3>
+            <p>
+              Instead of using QR-code systems, this project implements <strong>Vuforia Image Target Method</strong>, where printed textbook images and learning materials function as image recognition targets that trigger AR educational content in real time.
+            </p>
+            <div class="tech-features">
+              <div class="feature-item">
+                <div class="feature-icon">📱</div>
+                <span>Mobile AR Platform</span>
+              </div>
+              <div class="feature-item">
+                <div class="feature-icon">🎯</div>
+                <span>Image Recognition</span>
+              </div>
+              <div class="feature-item">
+                <div class="feature-icon">📚</div>
+                <span>Textbook Integration</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Research Objectives -->
+        <div class="research-objectives">
+          <h3 class="objectives-title">Research Objectives</h3>
+          <div class="objectives-grid">
+            <div class="objective-card">
+              <div class="objective-number">01</div>
+              <h4>Student Engagement</h4>
+              <p>Investigate whether AR-assisted learning improves student engagement and motivation compared to traditional methods</p>
+            </div>
+            <div class="objective-card">
+              <div class="objective-number">02</div>
+              <h4>Conceptual Understanding</h4>
+              <p>Measure improvement in understanding complex STEM topics through interactive 3D visualization</p>
+            </div>
+            <div class="objective-card">
+              <div class="objective-number">03</div>
+              <h4>Interactive Participation</h4>
+              <p>Evaluate increased student participation during lessons through hands-on AR experiences</p>
+            </div>
+            <div class="objective-card">
+              <div class="objective-number">04</div>
+              <h4>Knowledge Retention</h4>
+              <p>Assess quiz performance and long-term knowledge retention versus conventional learning</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Target Audience -->
+        <div class="target-audience">
+          <div class="audience-card card">
+            <div class="audience-header">
+              <div class="audience-icon">🎓</div>
+              <h3>Target Audience</h3>
+            </div>
+            <div class="audience-content">
+              <p>
+                This project particularly targets <strong>students who experience difficulties with conventional book-based learning approaches</strong>. The AR platform is designed to provide alternative learning pathways that cater to diverse learning styles and needs.
+              </p>
+              <div class="audience-stats">
+                <div class="stat-item">
+                  <div class="stat-number">8</div>
+                  <div class="stat-label">Grade Level</div>
+                </div>
+                <div class="stat-item">
+                  <div class="stat-number">STEM</div>
+                  <div class="stat-label">Focus Area</div>
+                </div>
+                <div class="stat-item">
+                  <div class="stat-number">AR</div>
+                  <div class="stat-label">Technology</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Validation Methodology -->
+        <div class="methodology-section">
+          <h3 class="methodology-title">Validation Approach</h3>
+          <div class="methodology-grid">
+            <div class="method-card">
+              <div class="method-icon">📊</div>
+              <h4>Quantitative Analysis</h4>
+              <p>Pre-test and post-test comparisons to measure knowledge gains</p>
+            </div>
+            <div class="method-card">
+              <div class="method-icon">👥</div>
+              <h4>Qualitative Feedback</h4>
+              <p>Student surveys and interviews about learning experience</p>
+            </div>
+            <div class="method-card">
+              <div class="method-icon">⏱️</div>
+              <h4>Performance Metrics</h4>
+              <p>Quiz completion rates and time-on-task measurements</p>
+            </div>
+            <div class="method-card">
+              <div class="method-icon">🔄</div>
+              <h4>Comparative Study</h4>
+              <p>AR group vs traditional learning control groups</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Methodology Section -->
+    <section class="methodology-section" id="methodology" style="padding: 120px 0; background: #080808; border-top: 1px solid var(--border-color);">
+      <div class="container">
+        <div class="section-header-modern" style="margin-bottom: 80px;">
+          <h2 class="modern-title-centered">
+            Development <span class="glow-yellow">Methodology</span>
+          </h2>
+          <div class="title-line-centered"></div>
+          <p class="modern-subtitle-centered">
+            Design-based development combining software engineering with educational research
+          </p>
+        </div>
+
+        <!-- Technology Stack -->
+        <div class="tech-stack-section">
+          <h3 class="tech-stack-title">Technology Stack</h3>
+          <div class="tech-stack-grid">
+            <div class="tech-card">
+              <div class="tech-icon-wrapper">
+                <svg viewBox="0 0 24 24" fill="currentColor" width="48" height="48">
+                  <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+                </svg>
+              </div>
+              <h4>Unity Engine</h4>
+              <p>Application development and scene management</p>
+            </div>
+            <div class="tech-card">
+              <div class="tech-icon-wrapper">
+                <svg viewBox="0 0 24 24" fill="currentColor" width="48" height="48">
+                  <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+                </svg>
+              </div>
+              <h4>Vuforia SDK</h4>
+              <p>Image target recognition and AR tracking</p>
+            </div>
+            <div class="tech-card">
+              <div class="tech-icon-wrapper">
+                <svg viewBox="0 0 24 24" fill="currentColor" width="48" height="48">
+                  <path d="M9 11H7v2h2v-2zm4 0h-2v2h2v-2zm4 0h-2v2h2v-2zm2-7h-1V2h-2v2H8V2H6v2H5c-1.11 0-1.99.9-1.99 2L3 20c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 16H5V9h14v11z"/>
+                </svg>
+              </div>
+              <h4>Mobile UI</h4>
+              <p>Student-friendly interaction design</p>
+            </div>
+            <div class="tech-card">
+              <div class="tech-icon-wrapper">
+                <svg viewBox="0 0 24 24" fill="currentColor" width="48" height="48">
+                  <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zM9 17H7v-7h2v7zm4 0h-2V7h2v10zm4 0h-2v-4h2v4z"/>
+                </svg>
+              </div>
+              <h4>Interactive 3D Models</h4>
+              <p>Animations and educational activities</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Vuforia Image Target Method -->
+        <div class="vuforia-method">
+          <div class="method-intro card highlight-card">
+            <div class="method-badge">Vuforia Image Target Method</div>
+            <h3>AR Recognition System</h3>
+            <p>
+              The application utilized <strong>Vuforia Image Target Method</strong>, where predefined textbook images and printed learning materials acted as recognition targets. When students scanned these images using the mobile application, corresponding AR content such as 3D visualizations, animations, and interactive lessons were rendered in real time.
+            </p>
+            <div class="recognition-flow">
+              <div class="flow-step">
+                <div class="flow-icon">📷</div>
+                <span>Scan Textbook</span>
+              </div>
+              <div class="flow-arrow">→</div>
+              <div class="flow-step">
+                <div class="flow-icon">🎯</div>
+                <span>Image Recognition</span>
+              </div>
+              <div class="flow-arrow">→</div>
+              <div class="flow-step">
+                <div class="flow-icon">🌟</div>
+                <span>AR Content Display</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Development Process -->
+        <div class="development-process">
+          <h3 class="process-title">Development Process</h3>
+          <div class="process-timeline">
+            <div class="process-step">
+              <div class="step-number">01</div>
+              <div class="step-content">
+                <h4>Designing Educational AR Lesson Structures</h4>
+                <p>Creating comprehensive learning frameworks with AR integration</p>
+              </div>
+            </div>
+            <div class="process-step">
+              <div class="step-number">02</div>
+              <div class="step-content">
+                <h4>Creating Image Targets for Lesson Activation</h4>
+                <p>Developing recognition targets from textbook materials</p>
+              </div>
+            </div>
+            <div class="process-step">
+              <div class="step-number">03</div>
+              <div class="step-content">
+                <h4>Developing Interactive AR Scenes and Learning Activities</h4>
+                <p>Building 3D models and interactive educational content</p>
+              </div>
+            </div>
+            <div class="process-step">
+              <div class="step-number">04</div>
+              <div class="step-content">
+                <h4>Integrating Quizzes and Assessment Mechanisms</h4>
+                <p>Implementing MCQ systems and gamified assessments</p>
+              </div>
+            </div>
+            <div class="process-step">
+              <div class="step-number">05</div>
+              <div class="step-content">
+                <h4>Implementing Data Tracking and Analytics Features</h4>
+                <p>Adding performance monitoring and user interaction tracking</p>
+              </div>
+            </div>
+            <div class="process-step">
+              <div class="step-number">06</div>
+              <div class="step-content">
+                <h4>Testing and Optimizing Mobile Performance and Usability</h4>
+                <p>Ensuring smooth operation across mobile devices</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Data Collection Methodology -->
+        <div class="data-collection">
+          <h3 class="data-title">Data Collection Methodology</h3>
+          <div class="data-overview">
+            <div class="data-intro card">
+              <h4>Automated Research Data Collection</h4>
+              <p>
+                The developed application was also used as the primary tool for collecting research data during the evaluation phase. Students participated in structured learning sessions where they interacted with AR lessons and completed quizzes through the mobile application. During these sessions, the system automatically recorded user interaction data and learning performance metrics.
+              </p>
+            </div>
+          </div>
+
+          <div class="data-metrics">
+            <h4>Collected Data Metrics</h4>
+            <div class="metrics-grid">
+              <div class="metric-card">
+                <div class="metric-icon">📊</div>
+                <h5>Pre-test & Post-test Scores</h5>
+                <p>Knowledge assessment before and after AR intervention</p>
+              </div>
+              <div class="metric-card">
+                <div class="metric-icon">✅</div>
+                <h5>Quiz Results & Accuracy Rates</h5>
+                <p>Performance analysis and success metrics</p>
+              </div>
+              <div class="metric-card">
+                <div class="metric-icon">📈</div>
+                <h5>Correct & Incorrect Answer Counts</h5>
+                <p>Detailed response pattern analysis</p>
+              </div>
+              <div class="metric-card">
+                <div class="metric-icon">⏱️</div>
+                <h5>Time Spent on AR Lessons</h5>
+                <p>Engagement duration and interaction timing</p>
+              </div>
+              <div class="metric-card">
+                <div class="metric-icon">🎯</div>
+                <h5>Activity Completion Rates</h5>
+                <p>Task success and progression tracking</p>
+              </div>
+              <div class="metric-card">
+                <div class="metric-icon">🎮</div>
+                <h5>Game & Quiz Performance</h5>
+                <p>Gamified learning effectiveness metrics</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="qualitative-feedback">
+            <div class="feedback-card card">
+              <div class="feedback-header">
+                <div class="feedback-icon">💬</div>
+                <h4>Qualitative Feedback Methods</h4>
+              </div>
+              <div class="feedback-methods">
+                <div class="feedback-item">
+                  <div class="method-check">✓</div>
+                  <div>
+                    <h5>Quizzes (MCQ)</h5>
+                    <p>Multiple choice questions for knowledge assessment</p>
+                  </div>
+                </div>
+                <div class="feedback-item">
+                  <div class="method-check">✓</div>
+                  <div>
+                    <h5>Gamified Quizzes</h5>
+                    <p>Interactive assessments with game elements</p>
+                  </div>
+                </div>
+                <div class="feedback-item">
+                  <div class="method-check">✓</div>
+                  <div>
+                    <h5>Automated System Data</h5>
+                    <p>Real-time performance tracking and analytics</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testing and Evaluation Section -->
+    <section class="testing-section" id="testing" style="padding: 120px 0; background: linear-gradient(145deg, #080808 0%, #050505 100%); border-top: 1px solid var(--border-color);">
+      <div class="container">
+        <div class="section-header-modern" style="margin-bottom: 80px;">
+          <h2 class="modern-title-centered">
+            Testing & <span class="glow-yellow">Evaluation</span>
+          </h2>
+          <div class="title-line-centered"></div>
+          <p class="modern-subtitle-centered">
+            Comprehensive testing approach for technical performance and educational effectiveness
+          </p>
+        </div>
+
+        <!-- Application Testing Overview -->
+        <div class="testing-overview">
+          <div class="testing-intro card highlight-card">
+            <div class="testing-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="48" height="48">
+                <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0"/>
+                <path d="M21 12c0 1.66-1.34 3-3 3s-3-1.34-3-3 1.34-3 3-3 3z"/>
+              </svg>
+            </div>
+            <h3>Application Testing</h3>
+            <p>
+              The AR learning application was tested to evaluate both its technical performance and educational effectiveness. The system was tested to ensure that all features worked properly and smoothly on mobile devices through comprehensive testing sessions.
+            </p>
+          </div>
+        </div>
+
+        <!-- Testing Focus Areas -->
+        <div class="testing-focus">
+          <h3 class="focus-title">Testing Focus Areas</h3>
+          <div class="focus-grid">
+            <div class="focus-card">
+              <div class="focus-icon-wrapper">
+                <div class="focus-icon">🎯</div>
+              </div>
+              <h4>Accurate Image Target Recognition</h4>
+              <p>Testing Vuforia SDK for precise image target detection and tracking reliability</p>
+              <div class="testing-status">
+                <div class="status-indicator success"></div>
+                <span>Verified</span>
+              </div>
+            </div>
+            <div class="focus-card">
+              <div class="focus-icon-wrapper">
+                <div class="focus-icon">🎮</div>
+              </div>
+              <h4>Proper Loading of AR Models</h4>
+              <p>Ensuring 3D models and animations load correctly without performance issues</p>
+              <div class="testing-status">
+                <div class="status-indicator success"></div>
+                <span>Optimized</span>
+              </div>
+            </div>
+            <div class="focus-card">
+              <div class="focus-icon-wrapper">
+                <div class="focus-icon">👆</div>
+              </div>
+              <h4>Smooth User Interaction</h4>
+              <p>Validating responsive touch controls and intuitive navigation</p>
+              <div class="testing-status">
+                <div class="status-indicator success"></div>
+                <span>Enhanced</span>
+              </div>
+            </div>
+            <div class="focus-card">
+              <div class="focus-icon-wrapper">
+                <div class="focus-icon">⚡</div>
+              </div>
+              <h4>Stable Application Performance</h4>
+              <p>Monitoring memory usage, frame rates, and overall system stability</p>
+              <div class="testing-status">
+                <div class="status-indicator success"></div>
+                <span>Stable</span>
+              </div>
+            </div>
+            <div class="focus-card">
+              <div class="focus-icon-wrapper">
+                <div class="focus-icon">📱</div>
+              </div>
+              <h4>Device Compatibility</h4>
+              <p>Testing across different mobile devices and Android versions</p>
+              <div class="testing-status">
+                <div class="status-indicator success"></div>
+                <span>Certified</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Testing Process -->
+        <div class="testing-process">
+          <h3 class="process-title">Testing Process</h3>
+          <div class="process-flow">
+            <div class="process-stage">
+              <div class="stage-number">01</div>
+              <div class="stage-content">
+                <h4>Initial Testing</h4>
+                <p>Basic functionality verification and bug identification</p>
+              </div>
+            </div>
+            <div class="process-arrow">→</div>
+            <div class="process-stage">
+              <div class="stage-number">02</div>
+              <div class="stage-content">
+                <h4>Performance Optimization</h4>
+                <p>Memory usage and frame rate improvements</p>
+              </div>
+            </div>
+            <div class="process-arrow">→</div>
+            <div class="process-stage">
+              <div class="stage-number">03</div>
+              <div class="stage-content">
+                <h4>Device Testing</h4>
+                <p>Cross-device compatibility validation</p>
+              </div>
+            </div>
+            <div class="process-arrow">→</div>
+            <div class="process-stage">
+              <div class="stage-number">04</div>
+              <div class="stage-content">
+                <h4>User Experience Testing</h4>
+                <p>Real-world usage scenarios and feedback collection</p>
+              </div>
+            </div>
+            <div class="process-arrow">→</div>
+            <div class="process-stage">
+              <div class="stage-number">05</div>
+              <div class="stage-content">
+                <h4>Final Validation</h4>
+                <p>Comprehensive quality assurance and deployment readiness</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Testing Sessions -->
+        <div class="testing-sessions">
+          <div class="sessions-card card">
+            <div class="sessions-header">
+              <div class="sessions-icon">🔄</div>
+              <h3>Multiple Testing Sessions</h3>
+            </div>
+            <div class="sessions-content">
+              <p>
+                Several testing sessions were carried out to identify and fix technical issues and improve the overall user experience. Each session focused on different aspects of the application to ensure comprehensive coverage and quality assurance.
+              </p>
+              <div class="session-stats">
+                <div class="session-stat">
+                  <div class="stat-number">5+</div>
+                  <div class="stat-label">Testing Sessions</div>
+                </div>
+                <div class="session-stat">
+                  <div class="stat-number">15+</div>
+                  <div class="stat-label">Test Scenarios</div>
+                </div>
+                <div class="session-stat">
+                  <div class="stat-number">10+</div>
+                  <div class="stat-label">Device Models</div>
+                </div>
+                <div class="session-stat">
+                  <div class="stat-number">98%</div>
+                  <div class="stat-label">Success Rate</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- User Testing Image Gallery -->
+        <div class="user-testing-gallery" style="margin-top: 60px;">
+          <div class="section-header-modern" style="margin-bottom: 40px;">
+            <h3 class="modern-title-centered" style="font-size: 2.5rem;">User <span class="glow-yellow">Testing Gallery</span></h3>
+            <p class="modern-subtitle-centered">Visual documentation of student interaction and application testing</p>
+          </div>
+          
+          <style>
+            .testing-slider {
+              display: flex;
+              gap: 30px;
+              overflow-x: auto;
+              scroll-snap-type: x mandatory;
+              padding: 20px 20px 40px 20px;
+              scrollbar-width: none; /* Firefox */
+              -ms-overflow-style: none; /* IE/Edge */
+            }
+            .testing-slider::-webkit-scrollbar {
+              display: none; /* Chrome/Safari */
+            }
+            .slider-item {
+              flex: 0 0 85%;
+              max-width: 800px;
+              scroll-snap-align: center;
+              padding: 15px;
+              border-radius: 24px;
+              transition: transform 0.4s ease, border-color 0.4s ease;
+            }
+            .slider-item:hover {
+              transform: translateY(-5px);
+              border-color: rgba(255, 222, 89, 0.4);
+            }
+            .slider-item img {
+              width: 100%;
+              height: 450px;
+              object-fit: cover;
+              border-radius: 16px;
+              transition: transform 0.5s ease;
+            }
+            .slider-item:hover img {
+              transform: scale(1.02);
+            }
+            @media (max-width: 768px) {
+              .slider-item {
+                flex: 0 0 90%;
+              }
+              .slider-item img {
+                height: 300px;
+              }
+            }
+          </style>
+
+          <div class="testing-slider">
+            <div class="slider-item clean-card">
+              <img src="assets/user_testing/media__1780941417536.jpg" alt="User Testing Session 1">
+            </div>
+            <div class="slider-item clean-card">
+              <img src="assets/user_testing/media__1780941417544.jpg" alt="User Testing Session 2">
+            </div>
+            <div class="slider-item clean-card">
+              <img src="assets/user_testing/media__1780941417564.jpg" alt="User Testing Session 3">
+            </div>
+            <div class="slider-item clean-card">
+              <img src="assets/user_testing/media__1780941417574.jpg" alt="User Testing Session 4">
+            </div>
+            <div class="slider-item clean-card">
+              <img src="assets/user_testing/media__1780941531084.jpg" alt="User Testing Session 5">
+            </div>
+          </div>
+        </div>
+
+        <!-- Quality Assurance -->
+        <div class="quality-assurance">
+          <h3 class="qa-title">Quality Assurance Metrics</h3>
+          <div class="qa-metrics">
+            <div class="qa-item">
+              <div class="qa-progress">
+                <div class="progress-circle">
+                  <svg viewBox="0 0 36 36" class="progress-svg">
+                    <path d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" class="progress-bg"/>
+                    <path d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" class="progress-fill" stroke-dasharray="95, 100"/>
+                  </svg>
+                  <div class="progress-text">95%</div>
+                </div>
+              </div>
+              <h4>AR Recognition Accuracy</h4>
+              <p>High precision image target detection</p>
+            </div>
+            <div class="qa-item">
+              <div class="qa-progress">
+                <div class="progress-circle">
+                  <svg viewBox="0 0 36 36" class="progress-svg">
+                    <path d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" class="progress-bg"/>
+                    <path d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" class="progress-fill" stroke-dasharray="90, 100"/>
+                  </svg>
+                  <div class="progress-text">90%</div>
+                </div>
+              </div>
+              <h4>Performance Optimization</h4>
+              <p>Smooth 60fps on target devices</p>
+            </div>
+            <div class="qa-item">
+              <div class="qa-progress">
+                <div class="progress-circle">
+                  <svg viewBox="0 0 36 36" class="progress-svg">
+                    <path d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" class="progress-bg"/>
+                    <path d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" class="progress-fill" stroke-dasharray="98, 100"/>
+                  </svg>
+                  <div class="progress-text">98%</div>
+                </div>
+              </div>
+              <h4>Device Compatibility</h4>
+              <p>Broad Android device support</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Research Findings Dashboard Section -->
+    <section class="findings-dashboard" id="findings" style="padding: 120px 0; background: linear-gradient(135deg, #0a0a0a 0%, #080808 50%, #050505 100%); border-top: 1px solid var(--border-color);">
+      <div class="container">
+        <div class="section-header-modern" style="margin-bottom: 80px;">
+          <h2 class="modern-title-centered">
+            Key Findings and <span class="glow-yellow">Outcomes</span>
+          </h2>
+          <div class="title-line-centered"></div>
+          <p class="modern-subtitle-centered">
+            Quantitative analysis demonstrating effectiveness of AR learning platform
+          </p>
+        </div>
+
+        <!-- Key Statistics Cards -->
+        <div class="stats-cards-container">
+          <div class="stat-card glass-card">
+            <div class="stat-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="32" height="32">
+                <path d="M13 7h8m0 0v8m0 0h-8m-4 4h16m-4-4v8m0 0h-16m4 4h8"/>
+              </svg>
+            </div>
+            <div class="stat-content">
+              <div class="stat-number" data-target="82">0%</div>
+              <div class="stat-label">Learning Improvement</div>
+              <div class="stat-subtitle">Pre-test to Post-test</div>
+            </div>
+          </div>
+          <div class="stat-card glass-card">
+            <div class="stat-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="32" height="32">
+                <path d="M12 2l3.09 6.26L22 9.27l-3.09 6.26L12 22z"/>
+                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z"/>
+              </svg>
+            </div>
+            <div class="stat-content">
+              <div class="stat-number" data-target="91">0%</div>
+              <div class="stat-label">Student Engagement</div>
+              <div class="stat-subtitle">AR vs Traditional</div>
+            </div>
+          </div>
+          <div class="stat-card glass-card">
+            <div class="stat-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="32" height="32">
+                <path d="M9 11H7v2h2v-2zm4 0h-2v2h2v-2zm4 0h-2v2h2v-2zm2-7h-1V2h-2v2H8V2H6v2H5c-1.11 0-1.99.9-1.99 2L3 20c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 16H5V9h14v11z"/>
+              </svg>
+            </div>
+            <div class="stat-content">
+              <div class="stat-number" data-target="97">0%</div>
+              <div class="stat-label">Tracking Accuracy</div>
+              <div class="stat-subtitle">Image Recognition</div>
+            </div>
+          </div>
+          <div class="stat-card glass-card">
+            <div class="stat-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="32" height="32">
+                <path d="M9 5H7a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2H9"/>
+              </svg>
+            </div>
+            <div class="stat-content">
+              <div class="stat-number" data-target="94">0%</div>
+              <div class="stat-label">Quiz Completion</div>
+              <div class="stat-subtitle">Assessment Success</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Performance Charts Grid -->
+        <div class="charts-grid">
+          <!-- Pre-Test vs Post-Test Performance -->
+          <div class="chart-card glass-card">
+            <div class="chart-header">
+              <div class="chart-icon">📊</div>
+              <h3>Pre-Test vs Post-Test Performance</h3>
+            </div>
+            <div class="chart-container">
+              <div class="chart-wrapper">
+                <div class="vertical-bar-chart">
+                  <div class="vertical-bars-container">
+                    <div class="vertical-bar-group">
+                      <div class="vertical-bar-wrapper">
+                        <div class="vertical-bar pre-test" data-value="48">
+                          <span class="vertical-bar-value">48%</span>
+                        </div>
+                        <div class="vertical-bar-label">Pre-Test</div>
+                      </div>
+                    </div>
+                    <div class="vertical-bar-group">
+                      <div class="vertical-bar-wrapper">
+                        <div class="vertical-bar post-test" data-value="82">
+                          <span class="vertical-bar-value">82%</span>
+                        </div>
+                        <div class="vertical-bar-label">Post-Test</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Student Engagement Levels -->
+          <div class="chart-card glass-card">
+            <div class="chart-header">
+              <div class="chart-icon">👥</div>
+              <h3>Student Engagement Levels</h3>
+            </div>
+            <div class="chart-container">
+              <div class="chart-wrapper">
+                <div class="vertical-bar-chart">
+                  <div class="vertical-bars-container">
+                    <div class="vertical-bar-group">
+                      <div class="vertical-bar-wrapper">
+                        <div class="vertical-bar traditional" data-value="55">
+                          <span class="vertical-bar-value">55%</span>
+                        </div>
+                        <div class="vertical-bar-label">Traditional</div>
+                      </div>
+                    </div>
+                    <div class="vertical-bar-group">
+                      <div class="vertical-bar-wrapper">
+                        <div class="vertical-bar ar-learning" data-value="91">
+                          <span class="vertical-bar-value">91%</span>
+                        </div>
+                        <div class="vertical-bar-label">AR Learning</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Quiz Participation and Completion -->
+          <div class="chart-card glass-card">
+            <div class="chart-header">
+              <div class="chart-icon">✅</div>
+              <h3>Quiz Participation & Completion</h3>
+            </div>
+            <div class="chart-container">
+              <div class="chart-wrapper">
+                <div class="vertical-bar-chart">
+                  <div class="vertical-bars-container">
+                    <div class="vertical-bar-group">
+                      <div class="vertical-bar-wrapper">
+                        <div class="vertical-bar completion" data-value="94">
+                          <span class="vertical-bar-value">94%</span>
+                        </div>
+                        <div class="vertical-bar-label">Completion Rate</div>
+                      </div>
+                    </div>
+                    <div class="vertical-bar-group">
+                      <div class="vertical-bar-wrapper">
+                        <div class="vertical-bar participation" data-value="89">
+                          <span class="vertical-bar-value">89%</span>
+                        </div>
+                        <div class="vertical-bar-label">Participation</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Learning Effectiveness Metrics -->
+          <div class="chart-card glass-card full-width">
+            <div class="chart-header">
+              <div class="chart-icon">🎯</div>
+              <h3>Learning Effectiveness Metrics</h3>
+            </div>
+            <div class="metrics-description">
+              <p>Interactive comparison between traditional learning methods and the AR-based learning platform.</p>
+            </div>
+            <div class="interactive-metrics-container">
+              <!-- Left Side: Metric selection cards/buttons -->
+              <div class="metrics-selection">
+                <div class="metric-card active" data-metric="concept">
+                  <div class="metric-icon">🧠</div>
+                  <div class="metric-title">Concept Understanding</div>
+                </div>
+                <div class="metric-card" data-metric="retention">
+                  <div class="metric-icon">📚</div>
+                  <div class="metric-title">Knowledge Retention</div>
+                </div>
+                <div class="metric-card" data-metric="motivation">
+                  <div class="metric-icon">⭐</div>
+                  <div class="metric-title">Student Motivation</div>
+                </div>
+                <div class="metric-card" data-metric="participation">
+                  <div class="metric-icon">🤝</div>
+                  <div class="metric-title">Interactive Participation</div>
+                </div>
+              </div>
+
+              <!-- Right Side: Large animated pie chart with percentage labels and insight text -->
+              <div class="chart-display">
+                <div class="pie-chart-container">
+                  <svg class="pie-chart" viewBox="0 0 200 200">
+                    <!-- Traditional Learning Segment -->
+                    <path class="pie-segment traditional" d="" fill="#ff6b6b" stroke="#0a0a0a" stroke-width="2"/>
+                    <!-- AR Application Segment -->
+                    <path class="pie-segment ar-learning" d="" fill="#4CAF50" stroke="#0a0a0a" stroke-width="2"/>
+                    
+                    <!-- Percentage Labels -->
+                    <text class="pie-label traditional-label" x="60" y="100" text-anchor="middle" fill="white" font-size="14" font-weight="bold">52%</text>
+                    <text class="pie-label ar-label" x="140" y="100" text-anchor="middle" fill="white" font-size="14" font-weight="bold">88%</text>
+                  </svg>
+                </div>
+                
+                <!-- Legend -->
+                <div class="chart-legend">
+                  <div class="legend-item">
+                    <div class="legend-color traditional-color"></div>
+                    <span>Traditional Learning</span>
+                  </div>
+                  <div class="legend-item">
+                    <div class="legend-color ar-color"></div>
+                    <span>AR Application</span>
+                  </div>
+                </div>
+                
+                <!-- Insight Text -->
+                <div class="chart-insight">
+                  <p>AR learning significantly improved concept understanding compared to traditional teaching methods.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+                  </div>
+      </div>
+    </section>
+
+    <!-- Commercialization / Future Potential Section -->
+    <section class="commercialization-section" id="future-potential" style="padding: 120px 0; background: #080808; border-top: 1px solid var(--border-color);">
+      <div class="container">
+        <div class="section-header-modern" style="margin-bottom: 80px;">
+          <h2 class="modern-title-centered">
+            Commercialization & <span class="glow-yellow">Future Potential</span>
+          </h2>
+          <div class="title-line-centered"></div>
+          <p class="modern-subtitle-centered">
+            Moving beyond the academic prototype toward real-world application and market deployment
+          </p>
+        </div>
+
+        <div class="future-potential-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px;">
+          
+          <!-- Potential Users -->
+          <div class="clean-card" style="padding: 40px; text-align: left;">
+            <div class="icon-box-small" style="font-size: 24px;">👥</div>
+            <h4 style="color: white; font-size: 1.3rem; margin-bottom: 15px;">Target Audience & Users</h4>
+            <p style="color: var(--text-muted); line-height: 1.6;">Primary potential users include educational institutions, K-12 schools, private tutoring centers, textbook publishers, and individual students seeking interactive STEM learning resources.</p>
+          </div>
+
+          <!-- Practical implementation -->
+          <div class="clean-card" style="padding: 40px; text-align: left;">
+            <div class="icon-box-small" style="font-size: 24px;">⚙️</div>
+            <h4 style="color: white; font-size: 1.3rem; margin-bottom: 15px;">Practical Implementation</h4>
+            <p style="color: var(--text-muted); line-height: 1.6;">Opportunities exist to integrate this AR technology directly into existing digital curriculums, replacing traditional static textbooks with interactive 3D modules and gamified assessments.</p>
+          </div>
+
+          <!-- Industry or market relevance -->
+          <div class="clean-card" style="padding: 40px; text-align: left;">
+            <div class="icon-box-small" style="font-size: 24px;">📈</div>
+            <h4 style="color: white; font-size: 1.3rem; margin-bottom: 15px;">Market Relevance</h4>
+            <p style="color: var(--text-muted); line-height: 1.6;">Addressing the rapidly growing global EdTech market, this solution taps into the high demand for immersive learning tools that actively improve concept retention and classroom engagement.</p>
+          </div>
+
+          <!-- Future development -->
+          <div class="clean-card" style="padding: 40px; text-align: left;">
+            <div class="icon-box-small" style="font-size: 24px;">🚀</div>
+            <h4 style="color: white; font-size: 1.3rem; margin-bottom: 15px;">Future Development</h4>
+            <p style="color: var(--text-muted); line-height: 1.6;">Possibilities for technical expansion include integrating AI-driven personalized learning paths, multiplayer collaborative AR environments, and cloud-based asset streaming for smaller app sizes.</p>
+          </div>
+
+          <!-- Deployment pathways -->
+          <div class="clean-card" style="padding: 40px; text-align: left;">
+            <div class="icon-box-small" style="font-size: 24px;">🛣️</div>
+            <h4 style="color: white; font-size: 1.3rem; margin-bottom: 15px;">Deployment Pathways</h4>
+            <p style="color: var(--text-muted); line-height: 1.6;">Strategic rollout could begin with B2B partnerships with established textbook publishers, followed by direct-to-consumer app store releases using a freemium or institutional subscription model.</p>
+          </div>
+
+          <!-- Long-term sustainability -->
+          <div class="clean-card" style="padding: 40px; text-align: left;">
+            <div class="icon-box-small" style="font-size: 24px;">🌱</div>
+            <h4 style="color: white; font-size: 1.3rem; margin-bottom: 15px;">Long-term Value</h4>
+            <p style="color: var(--text-muted); line-height: 1.6;">The project ensures high sustainability by allowing continuous updates to AR content over-the-air without needing physical textbook reprints, offering a highly scalable and eco-friendly educational ecosystem.</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Download / Resource Repository Section -->
+    <section class="resource-repository-section" id="resources" style="padding: 120px 0; background: linear-gradient(145deg, #050505 0%, #080808 100%); border-top: 1px solid var(--border-color);">
+      <div class="container">
+        <div class="section-header-modern" style="margin-bottom: 80px;">
+          <h2 class="modern-title-centered">
+            Resource <span class="glow-yellow">Repository</span>
+          </h2>
+          <div class="title-line-centered"></div>
+          <p class="modern-subtitle-centered">
+            Access and download all project documentation, research files, and the full application package
+          </p>
+        </div>
+
+        <div class="resources-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px;">
+          
+          <!-- TAF Document -->
+          <div class="resource-card clean-card" style="padding: 35px 20px; text-align: center; display: flex; flex-direction: column; align-items: center;">
+            <div class="resource-icon" style="font-size: 3rem; margin-bottom: 20px;">📄</div>
+            <h4 style="color: white; font-size: 1.15rem; margin-bottom: 15px;">TAF Document</h4>
+            <p style="color: var(--text-muted); font-size: 0.9rem; margin-bottom: 25px; flex-grow: 1; line-height: 1.5;">Topic Assessment Form and initial scope</p>
+            <a href="assets/docs/Astronomy TAF.pdf" download class="btn secondary-btn download-btn" style="width: 100%; display: flex; justify-content: center; align-items: center; gap: 8px; padding: 12px 15px; border-radius: 12px; font-size: 0.95rem;">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v4a2 2 0 012-2h14a2 2 0 012 2z"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+              PDF
+            </a>
+          </div>
+
+          <!-- Feasibility Study -->
+          <div class="resource-card clean-card" style="padding: 35px 20px; text-align: center; display: flex; flex-direction: column; align-items: center;">
+            <div class="resource-icon" style="font-size: 3rem; margin-bottom: 20px;">📊</div>
+            <h4 style="color: white; font-size: 1.15rem; margin-bottom: 15px;">Feasibility Study</h4>
+            <p style="color: var(--text-muted); font-size: 0.9rem; margin-bottom: 25px; flex-grow: 1; line-height: 1.5;">Technical and market feasibility report</p>
+            <a href="assets/docs/IT22896636_Feasibility Study Report.pdf" download class="btn secondary-btn download-btn" style="width: 100%; display: flex; justify-content: center; align-items: center; gap: 8px; padding: 12px 15px; border-radius: 12px; font-size: 0.95rem;">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v4a2 2 0 012-2h14a2 2 0 012 2z"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+              PDF
+            </a>
+          </div>
+
+          <!-- Proposal Draft -->
+          <div class="resource-card clean-card" style="padding: 35px 20px; text-align: center; display: flex; flex-direction: column; align-items: center;">
+            <div class="resource-icon" style="font-size: 3rem; margin-bottom: 20px;">📝</div>
+            <h4 style="color: white; font-size: 1.15rem; margin-bottom: 15px;">Proposal Draft</h4>
+            <p style="color: var(--text-muted); font-size: 0.9rem; margin-bottom: 25px; flex-grow: 1; line-height: 1.5;">Detailed project proposal</p>
+            <a href="assets/docs/IT22896636_Proposal_Draft.pdf" download class="btn secondary-btn download-btn" style="width: 100%; display: flex; justify-content: center; align-items: center; gap: 8px; padding: 12px 15px; border-radius: 12px; font-size: 0.95rem;">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v4a2 2 0 012-2h14a2 2 0 012 2z"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+              PDF
+            </a>
+          </div>
+
+          <!-- Final Thesis Report -->
+          <div class="resource-card clean-card" style="padding: 35px 20px; text-align: center; display: flex; flex-direction: column; align-items: center;">
+            <div class="resource-icon" style="font-size: 3rem; margin-bottom: 20px;">🎓</div>
+            <h4 style="color: white; font-size: 1.15rem; margin-bottom: 15px;">Final Thesis</h4>
+            <p style="color: var(--text-muted); font-size: 0.9rem; margin-bottom: 25px; flex-grow: 1; line-height: 1.5;">Complete academic research thesis</p>
+            <a href="assets/docs/Thesis Final _IT22896636.pdf" download class="btn secondary-btn download-btn" style="width: 100%; display: flex; justify-content: center; align-items: center; gap: 8px; padding: 12px 15px; border-radius: 12px; font-size: 0.95rem;">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v4a2 2 0 012-2h14a2 2 0 012 2z"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+              PDF
+            </a>
+          </div>
+
+          <!-- Full Project -->
+          <div class="resource-card clean-card" style="padding: 35px 20px; text-align: center; display: flex; flex-direction: column; align-items: center; border-color: rgba(255,222,89,0.4); background: linear-gradient(145deg, rgba(255,222,89,0.08) 0%, transparent 100%);">
+            <div class="resource-icon" style="font-size: 3rem; margin-bottom: 20px; filter: drop-shadow(0 0 10px rgba(255,222,89,0.5));">📦</div>
+            <h4 style="color: var(--primary-yellow); font-size: 1.15rem; margin-bottom: 15px;">Full Project</h4>
+            <p style="color: var(--text-muted); font-size: 0.9rem; margin-bottom: 25px; flex-grow: 1; line-height: 1.5;">Source code, assets, and APK</p>
+            <a href="assets/project/ASTRONOMY_AR.zip" download class="btn primary-btn download-btn" style="width: 100%; display: flex; justify-content: center; align-items: center; gap: 8px; padding: 12px 15px; border-radius: 12px; background: var(--primary-yellow); color: black; border: none; font-weight: bold; font-size: 0.95rem;">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v4a2 2 0 012-2h14a2 2 0 012 2z"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+              ZIP
+            </a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Modal System -->
+    <div class="modal" id="diagram-modal">
+      <div class="modal-overlay"></div>
+      <div class="modal-container card">
+        <button class="modal-close">&times;</button>
+        <div class="modal-header">
+          <h2 id="modal-title">Diagram Title</h2>
+          <a
+            id="modal-download"
+            class="btn secondary-btn download-btn"
+            download
+          >
+            <svg
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              width="16"
+              height="16"
+              style="margin-right: 8px"
+            >
+              <path
+                d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v4a2 2 0 012-2h14a2 2 0 012 2z"
+              />
+              <polyline points="7 10 12 15 17 10" />
+              <line x1="12" y1="15" x2="12" y2="3" />
+            </svg>
+            Download
+          </a>
+        </div>
+        <div class="modal-content">
+          <img id="modal-image" src="" alt="Diagram Image" />
+          <div id="modal-svg-container">
+            <!-- Inline High-Fidelity Application Component Diagram -->
+            <svg
+              id="svg-components"
+              width="1000"
+              height="600"
+              viewBox="0 0 1000 600"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              style="display: none; max-width: 100%; height: auto"
+            >
+              <defs>
+                <filter
+                  id="glow-svg"
+                  x="-20%"
+                  y="-20%"
+                  width="140%"
+                  height="140%"
+                >
+                  <feGaussianBlur stdDeviation="5" result="blur" />
+                  <feComposite in="SourceGraphic" in2="blur" operator="over" />
+                </filter>
+              </defs>
+              <!-- Grid Background -->
+              <rect width="1000" height="600" fill="#050505" />
+              <g opacity="0.1" stroke="#ffde59" stroke-width="0.5">
+                <path
+                  d="M0 50h1000M0 100h1000M0 150h1000M0 200h1000M0 250h1000M0 300h1000M0 350h1000M0 400h1000M0 450h1000M0 500h1000M0 550h1000"
+                />
+                <path
+                  d="M50 0v600M100 0v600M150 0v600M200 0v600M250 0v600M300 0v600M350 0v600M400 0v600M450 0v600M500 0v600M550 0v600M600 0v600M650 0v600M700 0v600M750 0v600M800 0v600M850 0v600M900 0v600M950 0v600"
+                />
+              </g>
+
+              <!-- Connections -->
+              <g stroke="#ffde59" stroke-width="2" stroke-opacity="0.3">
+                <path
+                  d="M500 300L250 150M500 300L500 150M500 300L750 150M500 300L150 300M500 300L850 300M500 300L250 450M500 300L500 450M500 300L750 450"
+                />
+              </g>
+
+              <!-- Central Hub -->
+              <g filter="url(#glow-svg)">
+                <rect
+                  x="400"
+                  y="260"
+                  width="200"
+                  height="80"
+                  rx="10"
+                  fill="black"
+                  stroke="#ffde59"
+                  stroke-width="2"
+                />
+                <text
+                  x="500"
+                  y="300"
+                  font-family="Arial"
+                  font-size="16"
+                  font-weight="bold"
+                  fill="white"
+                  text-anchor="middle"
+                >
+                  Unity Rendering Engine
+                </text>
+                <text
+                  x="500"
+                  y="320"
+                  font-family="Arial"
+                  font-size="10"
+                  fill="#ffde59"
+                  text-anchor="middle"
+                >
+                  SYSTEM CORE
+                </text>
+              </g>
+
+              <!-- Modules -->
+              <g
+                font-family="Arial"
+                font-size="12"
+                fill="white"
+                text-anchor="middle"
+              >
+                <!-- Top -->
+                <rect
+                  x="180"
+                  y="100"
+                  width="140"
+                  height="60"
+                  rx="8"
+                  fill="#111"
+                  stroke="#ffde59"
+                  stroke-width="1.5"
+                />
+                <text x="250" y="130">AR Camera Module</text>
+
+                <rect
+                  x="430"
+                  y="90"
+                  width="140"
+                  height="60"
+                  rx="8"
+                  fill="#111"
+                  stroke="#ffde59"
+                  stroke-width="1.5"
+                />
+                <text x="500" y="120">User Interface Module</text>
+
+                <rect
+                  x="680"
+                  y="100"
+                  width="140"
+                  height="60"
+                  rx="8"
+                  fill="#111"
+                  stroke="#ffde59"
+                  stroke-width="1.5"
+                />
+                <text x="750" y="130">Vuforia Image Target</text>
+
+                <!-- Middle -->
+                <rect
+                  x="50"
+                  y="270"
+                  width="140"
+                  height="60"
+                  rx="8"
+                  fill="#111"
+                  stroke="#ffde59"
+                  stroke-width="1.5"
+                />
+                <text x="120" y="305">Educational Content</text>
+
+                <rect
+                  x="810"
+                  y="270"
+                  width="140"
+                  height="60"
+                  rx="8"
+                  fill="#111"
+                  stroke="#ffde59"
+                  stroke-width="1.5"
+                />
+                <text x="880" y="305">3D Model Manager</text>
+
+                <!-- Bottom -->
+                <rect
+                  x="180"
+                  y="420"
+                  width="140"
+                  height="60"
+                  rx="8"
+                  fill="#111"
+                  stroke="#ffde59"
+                  stroke-width="1.5"
+                />
+                <text x="250" y="455">Quiz & Assessment</text>
+
+                <rect
+                  x="430"
+                  y="430"
+                  width="140"
+                  height="60"
+                  rx="8"
+                  fill="#111"
+                  stroke="#ffde59"
+                  stroke-width="1.5"
+                />
+                <text x="500" y="465">Database & Storage</text>
+
+                <rect
+                  x="680"
+                  y="420"
+                  width="140"
+                  height="60"
+                  rx="8"
+                  fill="#111"
+                  stroke="#ffde59"
+                  stroke-width="1.5"
+                />
+                <text x="750" y="455">Performance Tracking</text>
+              </g>
+            </svg>
+            <!-- Inline Learning Process Diagram -->
+            <svg
+              id="svg-learning"
+              width="1000"
+              height="600"
+              viewBox="0 0 1000 600"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              style="display: none; max-width: 100%; height: auto"
+            >
+              <defs>
+                <filter
+                  id="glow-learn"
+                  x="-20%"
+                  y="-20%"
+                  width="140%"
+                  height="140%"
+                >
+                  <feGaussianBlur stdDeviation="5" result="blur" />
+                  <feComposite in="SourceGraphic" in2="blur" operator="over" />
+                </filter>
+              </defs>
+              <rect width="1000" height="600" fill="#050505" />
+
+              <!-- Flow Path Line -->
+              <path
+                d="M100 150 H900 Q950 150 950 200 V400 Q950 450 900 450 H100"
+                stroke="#ffde59"
+                stroke-width="3"
+                stroke-opacity="0.2"
+                fill="none"
+                stroke-dasharray="10,10"
+              />
+
+              <!-- Step 1: Select -->
+              <g transform="translate(100, 150)">
+                <circle
+                  r="40"
+                  fill="black"
+                  stroke="#ffde59"
+                  stroke-width="2"
+                  filter="url(#glow-learn)"
+                />
+                <text
+                  y="5"
+                  font-family="Arial"
+                  font-size="20"
+                  fill="white"
+                  text-anchor="middle"
+                >
+                  01
+                </text>
+                <text
+                  y="70"
+                  font-family="Arial"
+                  font-size="12"
+                  fill="#ffde59"
+                  text-anchor="middle"
+                >
+                  Select Lesson
+                </text>
+              </g>
+
+              <!-- Step 2: Scan -->
+              <g transform="translate(250, 150)">
+                <circle r="40" fill="black" stroke="#ffde59" stroke-width="2" />
+                <text
+                  y="5"
+                  font-family="Arial"
+                  font-size="20"
+                  fill="white"
+                  text-anchor="middle"
+                >
+                  02
+                </text>
+                <text
+                  y="70"
+                  font-family="Arial"
+                  font-size="12"
+                  fill="#ffde59"
+                  text-anchor="middle"
+                >
+                  Scan Target
+                </text>
+              </g>
+
+              <!-- Step 3: AR Appear -->
+              <g transform="translate(400, 150)">
+                <circle r="40" fill="black" stroke="#ffde59" stroke-width="2" />
+                <text
+                  y="5"
+                  font-family="Arial"
+                  font-size="20"
+                  fill="white"
+                  text-anchor="middle"
+                >
+                  03
+                </text>
+                <text
+                  y="70"
+                  font-family="Arial"
+                  font-size="12"
+                  fill="#ffde59"
+                  text-anchor="middle"
+                >
+                  AR Model
+                </text>
+              </g>
+
+              <!-- Step 4: Explore -->
+              <g transform="translate(550, 150)">
+                <circle r="40" fill="black" stroke="#ffde59" stroke-width="2" />
+                <text
+                  y="5"
+                  font-family="Arial"
+                  font-size="20"
+                  fill="white"
+                  text-anchor="middle"
+                >
+                  04
+                </text>
+                <text
+                  y="70"
+                  font-family="Arial"
+                  font-size="12"
+                  fill="#ffde59"
+                  text-anchor="middle"
+                >
+                  Interact
+                </text>
+              </g>
+
+              <!-- Step 5: Learn -->
+              <g transform="translate(700, 150)">
+                <circle r="40" fill="black" stroke="#ffde59" stroke-width="2" />
+                <text
+                  y="5"
+                  font-family="Arial"
+                  font-size="20"
+                  fill="white"
+                  text-anchor="middle"
+                >
+                  05
+                </text>
+                <text
+                  y="70"
+                  font-family="Arial"
+                  font-size="12"
+                  fill="#ffde59"
+                  text-anchor="middle"
+                >
+                  Audio/Visual
+                </text>
+              </g>
+
+              <!-- Step 6: Content -->
+              <g transform="translate(850, 150)">
+                <circle r="40" fill="black" stroke="#ffde59" stroke-width="2" />
+                <text
+                  y="5"
+                  font-family="Arial"
+                  font-size="20"
+                  fill="white"
+                  text-anchor="middle"
+                >
+                  06
+                </text>
+                <text
+                  y="70"
+                  font-family="Arial"
+                  font-size="12"
+                  fill="#ffde59"
+                  text-anchor="middle"
+                >
+                  Engage
+                </text>
+              </g>
+
+              <!-- Step 7: Quiz -->
+              <g transform="translate(850, 450)">
+                <circle r="40" fill="black" stroke="#ffde59" stroke-width="2" />
+                <text
+                  y="5"
+                  font-family="Arial"
+                  font-size="20"
+                  fill="white"
+                  text-anchor="middle"
+                >
+                  07
+                </text>
+                <text
+                  y="70"
+                  font-family="Arial"
+                  font-size="12"
+                  fill="#ffde59"
+                  text-anchor="middle"
+                >
+                  Complete Quiz
+                </text>
+              </g>
+
+              <!-- Step 8: Evaluate -->
+              <g transform="translate(650, 450)">
+                <circle r="40" fill="black" stroke="#ffde59" stroke-width="2" />
+                <text
+                  y="5"
+                  font-family="Arial"
+                  font-size="20"
+                  fill="white"
+                  text-anchor="middle"
+                >
+                  08
+                </text>
+                <text
+                  y="70"
+                  font-family="Arial"
+                  font-size="12"
+                  fill="#ffde59"
+                  text-anchor="middle"
+                >
+                  Evaluation
+                </text>
+              </g>
+
+              <!-- Step 9: Results -->
+              <g transform="translate(450, 450)">
+                <circle r="40" fill="black" stroke="#ffde59" stroke-width="2" />
+                <text
+                  y="5"
+                  font-family="Arial"
+                  font-size="20"
+                  fill="white"
+                  text-anchor="middle"
+                >
+                  09
+                </text>
+                <text
+                  y="70"
+                  font-family="Arial"
+                  font-size="12"
+                  fill="#ffde59"
+                  text-anchor="middle"
+                >
+                  Feedback
+                </text>
+              </g>
+
+              <!-- Step 10: Retention -->
+              <g transform="translate(250, 450)">
+                <circle
+                  r="45"
+                  fill="black"
+                  stroke="#ffde59"
+                  stroke-width="3"
+                  filter="url(#glow-learn)"
+                />
+                <text
+                  y="5"
+                  font-family="Arial"
+                  font-size="20"
+                  font-weight="bold"
+                  fill="white"
+                  text-anchor="middle"
+                >
+                  GOAL
+                </text>
+                <text
+                  y="75"
+                  font-family="Arial"
+                  font-size="14"
+                  font-weight="bold"
+                  fill="#ffde59"
+                  text-anchor="middle"
+                >
+                  Knowledge Retention
+                </text>
+              </g>
+
+              <!-- Decorative Graphics -->
+              <g opacity="0.4">
+                <path
+                  d="M100 300 L900 300"
+                  stroke="#ffde59"
+                  stroke-width="0.5"
+                />
+                <circle
+                  cx="500"
+                  cy="300"
+                  r="150"
+                  stroke="#ffde59"
+                  stroke-width="0.5"
+                  fill="none"
+                />
+              </g>
+            </svg>
+          </div>
+          <div id="modal-journey-container" style="display: none; width: 100%">
+            <!-- Vertical User Journey -->
+            <div class="journey-timeline">
+              <div class="journey-path-glow"></div>
+
+              <!-- Scenes will be injected here by JS -->
+            </div>
+          </div>
+          <div id="modal-placeholder" class="image-placeholder">
+            <p>Please upload the diagram to see it here.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Final Footer Section -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-logo">
+            <img
+              src="assets/shilpa_logo.png"
+              alt="Shilpa Logo"
+              class="nav-logo-img"
+            />
+            <span
+              style="
+                font-size: 1.5rem;
+                font-weight: 800;
+                color: white;
+                margin-left: 15px;
+              "
+              >Shilpa <span class="highlight">AR</span></span
+            >
+          </div>
+          <p>&copy; 2026 Shilpa AR Research Project. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+    <!-- Scroll Spy: highlight active nav link -->
+    <script>
+      (function () {
+        const sections = [
+          'hero', 'identity', 'problem', 'solution', 'media',
+          'interactive', 'research', 'methodology', 'testing',
+          'findings', 'future-potential', 'resources'
+        ];
+        const navLinks = document.querySelectorAll('#main-navbar .nav-links a');
+
+        function getActive() {
+          const scrollY = window.scrollY + 100; // offset for navbar height
+          let current = sections[0];
+          for (const id of sections) {
+            const el = document.getElementById(id);
+            if (el && el.offsetTop <= scrollY) current = id;
+          }
+          return current;
+        }
+
+        function updateNav() {
+          const active = getActive();
+          navLinks.forEach(link => {
+            const href = link.getAttribute('href');
+            if (href === '#' + active) {
+              link.classList.add('active');
+            } else {
+              link.classList.remove('active');
+            }
+          });
+        }
+
+        window.addEventListener('scroll', updateNav, { passive: true });
+        updateNav(); // run on load
+      })();
+    </script>
+
+    <style>
+      #main-navbar .nav-links a.active {
+        color: var(--primary-yellow);
+        text-shadow: 0 0 12px rgba(255, 222, 89, 0.5);
+      }
+      #main-navbar .nav-links a.active::after {
+        content: '';
+        display: block;
+        height: 2px;
+        background: var(--primary-yellow);
+        border-radius: 2px;
+        margin-top: 2px;
+        box-shadow: 0 0 8px rgba(255, 222, 89, 0.6);
+      }
+    </style>
+  </body>
+</html>
